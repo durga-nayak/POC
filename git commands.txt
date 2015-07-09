@@ -1,0 +1,19 @@
+git init
+git config --global user.name "durga-nayak"
+git config --global user.email "hapi.durga@gmail.com"
+git add .
+git commit -m "first commit"
+git remote add poc https://github.com/durga-nayak/POC.git
+git push -u poc master
+
+git clone https://github.com/durga-nayak/POC.git
+
+
+git config --global http.proxy http://nayakdur:hapi###sud1@11.164.4.22:8080
+git config --global https.proxy https://nayakdur:hapi###sud1@11.164.4.22:8080
+
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
+git config --global --get http.proxy
+git config --global --get https.proxy
