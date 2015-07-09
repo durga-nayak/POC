@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package com.algo.analysis;
+
+import java.util.Arrays;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class MergeSort {
+	// divide and conquer algo.
+	void mergeSort(int numbers[]){
+		if(numbers.length > 1){
+			int mid = numbers.length/2;
+			int tempArray[] = Arrays.copyOfRange(numbers, 0, mid - 1);
+			mergeSort(tempArray);
+			mergeSort(Arrays.copyOfRange(numbers, mid, numbers.length - 1));
+		}
+		System.out.println(numbers);
+	}
+
+	public static void main(String[] args){
+		MergeSort mergeSort = new MergeSort();
+		int numbers[] = {1,4,2,45,3,67};
+		mergeSort.mergeSort(numbers);
+	}
+}

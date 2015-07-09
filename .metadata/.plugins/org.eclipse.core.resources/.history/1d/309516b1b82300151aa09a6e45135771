@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.algo.analysis;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class MergeSort {
+	// divide and conquer algo.
+	void mergeSort(int numbers[]){
+		
+	}
+
+}

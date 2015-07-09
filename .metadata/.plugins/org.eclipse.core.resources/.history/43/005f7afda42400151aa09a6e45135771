@@ -1,0 +1,41 @@
+/**
+ * 
+ */
+package com.algo.analysis;
+
+import java.util.Arrays;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class InversionCount {
+	int numbers[];
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int numbers[] = {1,4,2,45,3,67};
+		InversionCount inversionCount =  new InversionCount();
+		inversionCount.numbers = Arrays.copyOf(inversionCount.numbers, numbers.length);
+		int lowerIndex = 0;
+		int higherIndex = numbers.length - 1;
+		inversionCount.inversionCount(lowerIndex, higherIndex);
+	}
+
+	int inversionCount(int lowerIndex, int higherIndex) {
+		if(lowerIndex < higherIndex){
+			return 0;
+		}
+		int mid = lowerIndex + (higherIndex - lowerIndex) / 2;
+		System.out.println(lowerIndex);
+		System.out.println(mid);
+		System.out.println(higherIndex);
+		System.out.println("++++++++++++++++++++");
+		inversionCount(lowerIndex, mid);
+		inversionCount(mid+1 , higherIndex);
+		
+		return 0;
+	}
+}

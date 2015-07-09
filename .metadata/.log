@@ -1,0 +1,46 @@
+!SESSION 2015-07-06 12:43:41.716 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -vm C:\Software\jdk1.6.0_41 -product org.eclipse.epp.package.jee.product -vm C:\Software\jdk1.6.0_41
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -vm C:\Software\jdk1.6.0_41 -data C:\Users\NAYAKDUR\Documents\POCWorkspace -product org.eclipse.epp.package.jee.product -vm C:\Software\jdk1.6.0_41
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-06 12:44:18.261
+!MESSAGE System property http.proxyHost is not set but should be 11.164.4.22.
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-06 12:44:20.364
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-06 12:44:20.365
+!MESSAGE System property https.proxyHost is not set but should be 11.164.4.22.
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-06 12:44:20.366
+!MESSAGE System property https.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-06 12:44:20.367
+!MESSAGE System property https.proxyHost is not set but should be 11.164.4.22.
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-06 12:44:20.368
+!MESSAGE System property https.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.jface 2 0 2015-07-06 12:44:37.203
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-06 12:44:37.203
+!MESSAGE A conflict occurred for CTRL+SHIFT+I:
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.php.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
