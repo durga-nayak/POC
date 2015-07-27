@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.algo.analysis.ds;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class DictionaryImpl {
+
+	/**
+	 * 
+	 */
+	public DictionaryImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

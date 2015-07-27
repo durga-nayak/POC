@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.algo.analysis.ds;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class Element<K, V> {
+	private K k;
+	private V v;
+	/**
+	 * 
+	 */
+	public Element(K k, V v) {
+
+	}
+
+}

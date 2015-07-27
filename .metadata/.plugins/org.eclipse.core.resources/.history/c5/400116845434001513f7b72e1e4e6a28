@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package com.algo.analysis.ds;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public interface Dictionary<K,V> {
+
+	public boolean search(K k);
+	public boolean insert(K k, V v);
+	public boolean delete(K k);
+	public boolean getPredecessor();
+	
+}

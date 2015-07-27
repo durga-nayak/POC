@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.algo.analysis.ds;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class Element<K, V> {
+
+	/**
+	 * 
+	 */
+	public Element() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
