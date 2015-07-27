@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.algo.analysis.devideconquer;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class BinaryMultiplication {
+	
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public byte multiply (Byte first, Byte two ) {
+		
+		first.
+		return 0;
+	}
+	
+}

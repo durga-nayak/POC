@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package com.algo.analysis.devideconquer;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class BinaryMultiplication {
+	
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BinaryMultiplication binaryMultiplication = new BinaryMultiplication();
+		String val  = "32";
+		Integer intVal =  Integer.parseInt(val);
+		BinaryConversion binaryConversion = new BinaryConversion(intVal);
+		for (int i = 0; i < binaryConversion.getBinaryVal().length; i++) {
+			System.out.print(binaryConversion.getBinaryVal()[i]);
+		}
+	}
+	public byte multiply (int[] first, int[] two ) {
+		
+//		first.
+		return 0;
+	}
+	
+}

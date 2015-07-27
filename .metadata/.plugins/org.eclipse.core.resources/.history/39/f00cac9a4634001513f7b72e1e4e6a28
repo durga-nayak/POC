@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package com.algo.analysis.ds;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class Stack<E> {
+private Object[] items;
+private int INIT_SIZE = 10;
+int top = -1;
+public Stack() {
+	items = new Object[INIT_SIZE];
+}
+
+public void push(E e) {
+	top++;
+	items[top] = e;
+}
+
+public void pop(E e) {
+	items[top] = null;
+	top--;
+}
+
+}

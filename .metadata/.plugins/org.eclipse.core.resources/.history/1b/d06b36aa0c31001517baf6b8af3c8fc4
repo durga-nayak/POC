@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+package com.algo.analysis.devideconquer;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class BinaryMultiplication {
+	
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String val  = "5";
+		Integer intVal =  Integer.parseInt(val);
+		System.out.println(intVal);
+		convert(intVal);
+	}
+
+	public static void convert(Integer val) {
+		
+		if (val == 1 ){
+			return;
+		}
+		convert(val/2);
+		System.out.print(val % 2);
+//		return 0;
+		
+	}
+	public byte multiply (byte first, byte two ) {
+		
+//		first.
+		return 0;
+	}
+	
+}

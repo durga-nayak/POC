@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.algo.analysis.ds;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public interface Stack {
+
+}

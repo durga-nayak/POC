@@ -1,0 +1,42 @@
+/**
+ * 
+ */
+package com.algo.analysis.devideconquer;
+
+import java.util.Arrays;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class BinaryConversion {
+
+	int count = 0;
+	int []binaryVal = new int[32];
+	
+	private BinaryConversion(Integer val) {
+		convert(val);
+	}
+	public int getCount() {
+		return count;
+	}
+	public int[] getBinaryVal() {
+		int []binaryval  = Arrays.copyOfRange(this.binaryVal, 0, count - 1);
+		return binaryVal;
+	}
+	
+	public void convert(Integer val) {
+		
+		if (val == 0 ){
+			return;
+		}
+		convert(val/2);
+		System.out.print(val % 2);
+		
+		binaryVal[this.count] = val%2;
+		this.count++;
+//		return 0;
+		
+	}
+
+}

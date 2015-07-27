@@ -1,0 +1,50 @@
+/**
+ * 
+ */
+package com.algo.analysis.devideconquer;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class BinaryMultiplication {
+	
+	int count = 0;
+	int []binaryVal = new int[10];
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BinaryMultiplication binaryMultiplication = new BinaryMultiplication();
+		String val  = "4";
+		System.out.println(val.getBytes()[0]);
+		Integer intVal =  Integer.parseInt(val);
+		System.out.println(intVal);
+		binaryMultiplication.convert(intVal);
+		for (int i = 0; i < binaryVal.length; i++) {
+			
+			System.out.print(binaryVal[i]);
+		}
+	}
+
+	public void convert(Integer val) {
+		
+		if (val == 0 ){
+			return;
+		}
+		convert(val/2);
+		System.out.print(val % 2);
+		binaryVal[this.count] = val%2;
+		this.count++;
+//		return 0;
+		
+	}
+	public byte multiply (byte first, byte two ) {
+		
+//		first.
+		return 0;
+	}
+	
+}

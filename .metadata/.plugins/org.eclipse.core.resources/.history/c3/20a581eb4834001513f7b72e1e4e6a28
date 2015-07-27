@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package com.algo.analysis.ds;
+
+/**
+ * @author NAYAKDUR
+ * @param <E>
+ *
+ */
+public class QueueImpl<E> implements Queue<E>{
+
+	@Override
+	public void enQueue(E e) {
+		
+	}
+
+	@Override
+	public E deQueue() {
+		return null;
+	}
+
+}
