@@ -20,10 +20,27 @@ public class BinarySearchTree<T> implements Dictionary<T> {
 		// TODO Auto-generated constructor stub
 	}
 
+	private T search(TreeNode<T> root, T t) {
+		if (root == null) {
+			return null;
+		} else if (this.compareTo(root.getT(), t) == -1) {
+
+				return search((TreeNode<T>) root.getRightNode(), t);
+
+		} else if (this.compareTo(root.getT(), t) == 1) {
+		
+				return search((TreeNode<T>) root.getLeftNode(), t);
+		} else {
+			return root.getT();
+		}
+	}
+	
 	@Override
-	public T search(T T) {
+	public T search(T t) {
 		// TODO Auto-generated method stub
-		return null;
+		T result = this.search(rootNode, t);
+		System.out.println(result);
+		return result;
 	}
 
 	@Override
@@ -60,24 +77,25 @@ public class BinarySearchTree<T> implements Dictionary<T> {
 	}
 	
 	private boolean insert(TreeNode<T> root, T t) {
-		System.out.println(this.compareTo(root.getT(), t));
 		if (this.compareTo(root.getT(), t) == -1 || this.compareTo(root.getT(), t) == 0) {
 			
-			if (root.getLeftNode() == null) {
-				TreeNode<T> node = new TreeNode<T>(t);
-				root.setLeftNode(node);
-			} else {
-				insert((TreeNode<T>)root.getLeftNode(), t);
-			}
-		} else if (this.compareTo(root.getT(), t) == 1) {
 			if (root.getRightNode() == null) {
 				TreeNode<T> node = new TreeNode<T>(t);
 				root.setRightNode(node);
+				size++;
 			} else {
 				insert((TreeNode<T>)root.getRightNode(), t);
 			}
+			
+		} else if (this.compareTo(root.getT(), t) == 1) {
+			if (root.getLeftNode() == null) {
+				TreeNode<T> node = new TreeNode<T>(t);
+				root.setLeftNode(node);
+				size++;
+			} else {
+				insert((TreeNode<T>)root.getLeftNode(), t);
+			}
 		} 
-		size++;
 		return true;
 	}
 

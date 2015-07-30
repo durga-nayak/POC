@@ -36,13 +36,20 @@ public class TestAlgo {
 		}
 		// TODO Auto-generated method stub
 		BinarySearchTree<Employee> binarySearchTree = new BinarySearchTree<Employee>();
-		Integer[] empId = {1,2,3,4,5,9,12,13,14};
+		Integer[] empId = {3,9,1,2,5,4,0,12,13,14};
 		for (int i=0; i < empId.length; i++){
 			Employee employee = new Employee();
 			employee.empId = empId[i];
+			employee.age = 20+i;
 			binarySearchTree.insert(employee);
+//			System.out.println(i);
 		}
+		
 		System.out.println(binarySearchTree.getSize());
+		System.out.println("+++++++++++++++++++++++++++++++++");
+		Employee employee = new Employee();
+		employee.empId =9;
+		System.out.println(binarySearchTree.search(employee));
 	}
 
 }

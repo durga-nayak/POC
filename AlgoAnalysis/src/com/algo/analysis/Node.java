@@ -7,7 +7,7 @@ package com.algo.analysis;
  * @author Lali
  *
  */
-public abstract class Node<T>{
+public class Node<T>{
 	String label;
 	T t;
 	Node<T> parentNode;
