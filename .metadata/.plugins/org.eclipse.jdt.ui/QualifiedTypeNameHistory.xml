@@ -3,4 +3,9 @@
 <fullyQualifiedTypeName name="com.algo.analysis.MergeSort"/>
 <fullyQualifiedTypeName name="com.algo.analysis.InversionCount"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.algo.analysis.linkedlist.ds.TreeNode"/>
+<fullyQualifiedTypeName name="com.algo.analysis.linkedlist.ds.BinarySearchTree"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="TestAlgo"/>
+<fullyQualifiedTypeName name="TestAlgo.Employee"/>
 </qualifiedTypeNameHistroy>

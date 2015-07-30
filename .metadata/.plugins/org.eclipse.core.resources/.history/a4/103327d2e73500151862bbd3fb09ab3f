@@ -1,0 +1,51 @@
+/**
+ * 
+ */
+package com.algo.analysis.linkedlist.ds;
+
+import com.algo.analysis.Node;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class BinarySearchTree<T> extends Node<T> {
+
+	/**
+	 * 
+	 */
+	public BinarySearchTree() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public T search(T T) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean insert(T T) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public T delete(T T) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public T getPredessor(T T) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public T getSuccessor(T T) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

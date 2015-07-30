@@ -1,0 +1,60 @@
+/**
+ * 
+ */
+package com.algo.analysis.linkedlist.ds;
+
+import com.algo.analysis.Dictionary;
+import com.algo.analysis.Node;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class BinarySearchTree<T> implements Dictionary<T> {
+
+	TreeNode<T> rootNode;
+	/**
+	 * 
+	 */
+	public BinarySearchTree() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public T search(T T) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean insert(T t) {
+		// TODO Auto-generated method stub
+		if (this.rootNode == null) {
+			this.rootNode = new TreeNode<T>();
+		} else {
+			if (result == null) {
+				
+			}
+		}
+		return false;
+	}
+
+	@Override
+	public T delete(T T) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public T getPredessor(T T) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public T getSuccessor(T T) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

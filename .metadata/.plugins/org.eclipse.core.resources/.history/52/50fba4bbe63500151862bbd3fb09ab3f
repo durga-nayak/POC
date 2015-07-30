@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.algo.analysis.linkedlist.ds;
+
+import com.algo.analysis.Node;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class BinarySearchTree<T> extends Node<T> {
+
+	/**
+	 * 
+	 */
+	public BinarySearchTree() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

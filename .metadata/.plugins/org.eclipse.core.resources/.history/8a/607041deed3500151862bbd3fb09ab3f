@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package com.algo.analysis.linkedlist.ds;
+
+import com.algo.analysis.Node;
+
+/**
+ * @author Lali
+ *
+ */
+public class TreeNode<T> extends Node<T> {
+
+	@Override
+	public int compareTo(T o) {
+		if (this.get) {
+			
+		} else if () {
+			
+		} else {
+			
+		}
+		return 0;
+	}
+
+}

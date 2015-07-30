@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.algo.analysis;
+
+/**
+ * @author Lali
+ *
+ */
+public class Node<T> {
+
+}

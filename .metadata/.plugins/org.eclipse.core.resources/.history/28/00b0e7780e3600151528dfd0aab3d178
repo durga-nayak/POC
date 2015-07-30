@@ -1,0 +1,22 @@
+import com.algo.analysis.linkedlist.ds.BinarySearchTree;
+
+/**
+ * 
+ */
+
+/**
+ * @author Lali
+ *
+ */
+public class TestAlgo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BinarySearchTree<Integer> binarySearchTree = new BinarySearchTree<Integer>();
+		int[] age = {1,2,3,4,5,9,12,13,14};
+	}
+
+}
