@@ -1,0 +1,49 @@
+/**
+ * 
+ */
+package poc.algo.ds.contiguous.queue;
+
+import poc.algo.ds.PriorityQueue;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class PriorityQueueImpl<E> extends QueueImpl<E> implements PriorityQueue<E>{
+
+	Integer indexOfMinimum;
+	
+	@Override
+	public boolean insert(E e) {
+		int index = e.hashCode();
+		this.items[index] = e;
+		return true;
+	}
+
+	@Override
+	public E findMinimum() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public E findMaximum() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public E deleteMinimum() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public E deleteMaximum() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package poc.algo.ds.contiguous.stack;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class ContiguousStack {
+
+	/**
+	 * 
+	 */
+	public ContiguousStack() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

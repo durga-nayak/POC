@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package poc.algo.ds.contiguous.queue;
+
+import poc.algo.ds.PriorityQueue;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class PriorityQueueImpl<E> extends QueueImpl<E> implements PriorityQueue<E>{
+	
+	
+
+}

@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package poc.algo.ds.contiguous.queue;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class QueueImpl {
+
+	/**
+	 * 
+	 */
+	public QueueImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
