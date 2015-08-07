@@ -8,4 +8,10 @@
 <fullyQualifiedTypeName name="java.lang.Comparable"/>
 <fullyQualifiedTypeName name="TestAlgo"/>
 <fullyQualifiedTypeName name="TestAlgo.Employee"/>
+<fullyQualifiedTypeName name="poc.algo.ds.Queue"/>
+<fullyQualifiedTypeName name="poc.algo.ds.Dictionary"/>
+<fullyQualifiedTypeName name="poc.algo.ds.PriorityQueue"/>
+<fullyQualifiedTypeName name="poc.algo.ds.contiguous.queue.QueueImpl"/>
+<fullyQualifiedTypeName name="poc.algo.ds.Main.Employee"/>
+<fullyQualifiedTypeName name="poc.algo.ds.contiguous.queue.PriorityQueueImpl"/>
 </qualifiedTypeNameHistroy>

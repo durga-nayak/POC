@@ -1,0 +1,63 @@
+/**
+ * 
+ */
+package poc.algo.sort;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class MergeSort {
+
+	/**
+	 * 
+	 */
+	public MergeSort() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public <T> T[] mergeSort (T[] items, int low, int high) {
+		//0,1,2,3,4,5
+		if (low == high) {
+			return null;
+		}
+		int mid =   low + (high - low) / 2;		
+		System.out.println(low+""+mid+""+high);
+		mergeSort(items, low, mid);
+		mergeSort(items, mid+1, high);
+		
+		
+		T[] tempItems = (T[])new Object[high - low +1];
+		int count = 0;
+		int lowIndex = low;
+		for (int i = low ; i <= high; i++) {
+			tempItems[count] = items[lowIndex];
+			System.out.print(""+tempItems[count]+",");
+			lowIndex++;
+			count++;
+			
+		}
+		System.out.println("");
+		
+		int i = low;
+		int j = mid + 1;
+		int k = 0;
+//		
+//		while ( i <= mid && j <= high) {
+//			
+//			if () {
+//				
+//			}
+//		}
+		
+		//1,2,6 4,5
+		
+		return items;
+		
+	}
+	public static void main(String[] args) {
+		MergeSort mergeSort = new MergeSort();
+		Integer[] items = {1,3,2,7,21,25,0,99,32};
+		mergeSort.mergeSort(items, 0, items.length -1);
+	}
+}

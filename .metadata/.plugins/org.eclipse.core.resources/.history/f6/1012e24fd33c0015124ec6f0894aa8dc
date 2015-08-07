@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package poc.algo.sort;
+
+/**
+ * @author NAYAKDUR
+ *
+ */
+public class MergeSort {
+
+	/**
+	 * 
+	 */
+	public MergeSort() {
+		// TODO Auto-generated constructor stub
+	}
+
+	
+}
