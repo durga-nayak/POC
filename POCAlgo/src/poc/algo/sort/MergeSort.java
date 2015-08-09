@@ -47,10 +47,8 @@ public class MergeSort {
 		int k = low;
 		int tempLowIndex = 0;
 		int tempMidIndex = mid - low +1;
-		System.out.println("=========================");
 		while ( i <= mid && j <= high) {
 			
-			System.out.print(tempItems[tempLowIndex]+""+tempItems[tempMidIndex]);
 			if (this.compareTo(tempItems[tempLowIndex],tempItems[tempMidIndex]) == -1) {
 				items[k] = tempItems[tempLowIndex];
 				tempLowIndex++;
@@ -58,33 +56,24 @@ public class MergeSort {
 			} else {
 				items[k] = tempItems[tempMidIndex];
 				tempMidIndex++;
-				items[j] = tempItems[tempLowIndex];
 				j++;
 			}
 			k++;
 			
 		}
-		System.out.println("");
-		System.out.println(tempLowIndex);
-		System.out.println(mid);
-		System.out.println(tempMidIndex);
-		System.out.println("=========================");
+		//1,2,3,4,13 0,5,6,7//
 		 while ( i <= mid) {
 			 items[k] = tempItems[tempLowIndex];
 			 tempLowIndex++;
 				i++;
 				k++;
 		 }
-		//1,2,6 4,5
-//		 System.out.println("++++++++++++++++");
-//		 for (int n = 0 ; n <= items.length - 1; n++) {
-//
-//
-//				System.out.print(""+items[n]+",");
-//				
-//				
-//			}
-//		 System.out.println("++++++++++++++++");
+		 while ( j <= high) {
+			 items[k] = tempItems[tempMidIndex];
+			 tempMidIndex++;
+				j++;
+				k++;
+		 }
 		}
 		return items;
 		
@@ -118,5 +107,16 @@ public class MergeSort {
 			employees[i] =employee;
 		}
 		mergeSort.mergeSort(employees, 0, items.length -1);
+		System.out.println("++++++++++++++++");
+		 for (int n = 0 ; n <= employees.length - 1; n++) {
+
+
+				System.out.print(""+employees[n]+"");
+				
+				
+			}
+		 System.out.println("");
+		 System.out.println("++++++++++++++++");
+		
 	}
 }
